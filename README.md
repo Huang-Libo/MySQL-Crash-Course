@@ -1,9 +1,12 @@
 # 《MySQL必知必会》导读
 
+![](media/15752374189021.jpg)
+
+
 ## 书籍相关资源
 
-配套网站：https://forta.com/books/0672327120/  
-样例表和填充脚本：https://forta.com/wp-content/uploads/books/0672327120/mysql_scripts.zip  
+书籍配套网站：https://forta.com/books/0672327120/  
+样例表和填充脚本：https://github.com/Huang-Libo/MySQL_Crash_Course/tree/master/mysql_scripts  ( 或直接从官网下载： https://forta.com/wp-content/uploads/books/0672327120/mysql_scripts.zip )
 
 
 ## 先安装 brew
@@ -139,13 +142,11 @@ mysql.server start
 
 ## 样例表及其填充
 
-打开`附录 B`。
+#### 六张表的说明
 
-### 六张表的说明
+附录 `B.1` 需要仔细读。
 
-附录 `B.1` 需要仔细读
-
-### 创建数据库
+#### 创建数据库
 
 先创建一个新的数据库：
 
@@ -170,7 +171,7 @@ mysql> show tables;
 Empty set (0.01 sec)
 ```
 
-### 创建六张表，并填充数据
+#### 使用脚本创建六张表
 
 如果 `mysql_scripts` 是放在了 `Downloads` 目录，则在 mysql 里执行：
 
@@ -200,7 +201,7 @@ mysql> show tables;
 6 rows in set (0.00 sec)
 ```
 
-### 向六张表中填充数据
+#### 使用脚本向六张表中填充数据
 
 ```
 source ~/Downloads/mysql_scripts/populate.sql
