@@ -240,7 +240,7 @@ mysql> quit;
 
 `mycli` 官网：https://www.mycli.net/  
 
-安装 `brew install mycli`：  
+安装 `mycli`：  
 
 ```
 brew install mycli
@@ -252,9 +252,11 @@ brew install mycli
 mycli -h localhost -u root
 ```
 
+使用 `tab` 键就可以自动补全了。  
+
 ## mycli 打开多行模式
 
-mycli 默认没有多行模式，需要在配置：
+mycli 默认没有多行模式，需要配置：
 
 ```
 vim ~/.myclirc 
