@@ -123,6 +123,20 @@ mysql -uroot -p
 mysql> show databases;
 ```
 
+## mysql 服务的启动
+
+如果想随系统启动：  
+
+```
+brew services start mysql
+```
+
+如果不想设为随系统启动，可在需要时手动启动：
+
+```
+mysql.server start
+```
+
 ## 样例表及其填充
 
 打开`附录 B`。
