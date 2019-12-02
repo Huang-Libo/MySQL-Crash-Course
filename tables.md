@@ -13,6 +13,9 @@
 3. 管理顾客列表；
 4. 录入顾客订单。
 
+创建6个数据库表的脚本：[create.sql](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/mysql_scripts/create.sql)  
+为这些表填充数据的脚本：[populate.sql](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/mysql_scripts/populate.sql)  
+
 
 ## venders 表
 

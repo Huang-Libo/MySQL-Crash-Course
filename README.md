@@ -3,10 +3,18 @@
 ![](media/15752374189021.jpg)
 
 
+- [导读](https://github.com/Huang-Libo/MySQL_Crash_Course)
+- [样例表说明及详情](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/tables.md)
+
 ## 书籍相关资源
 
 书籍配套网站：https://forta.com/books/0672327120/  
-样例表和填充脚本：https://github.com/Huang-Libo/MySQL_Crash_Course/tree/master/mysql_scripts  ( 或直接从官网下载： https://forta.com/wp-content/uploads/books/0672327120/mysql_scripts.zip )
+样例表和填充脚本：https://github.com/Huang-Libo/MySQL_Crash_Course/tree/master/mysql_scripts  
+( 或直接从官网下载： https://forta.com/wp-content/uploads/books/0672327120/mysql_scripts.zip )  
+
+## 环境
+
+macOS 10.15.x
 
 
 ## 先安装 brew
@@ -261,7 +269,7 @@ mycli 默认没有多行模式，需要配置：
 
 ```
 vim ~/.myclirc 
-```
+```    
 
 找到 multi_line 并将其改为 True：  
 
@@ -274,6 +282,10 @@ vim ~/.myclirc
 ```
 
 接下来就可以愉快地玩耍了。 
+
+## 图形界面推荐
+
+Navicat
 
 ## 章节说明
 
