@@ -2,8 +2,8 @@
 
 ![](media/15752374189021.jpg)
 
+## 本仓库的目录
 
-- [导读](https://github.com/Huang-Libo/MySQL_Crash_Course)
 - [MySQL 的安装和配置](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/install_mysql.md)
 - [样例表的说明及创建](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/tables.md)
 
