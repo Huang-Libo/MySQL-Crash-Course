@@ -111,8 +111,8 @@ ALTER TABLE orders ADD CONSTRAINT fk_orders_customers FOREIGN KEY (cust_id) REFE
 
 ## orderitems 表
 
-主键：`order_num` 和 `order_item`。
-外键：  
+主键：`order_num` 和 `order_item`。  
+外键有两个：  
 1. `order_num`，关联到 **orders** 表中的 `order_num`；
 2. `prod_id`，关联到 **products** 表中的 `prod_id`。
 外键的定义为：  
