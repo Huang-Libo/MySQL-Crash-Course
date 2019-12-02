@@ -2,7 +2,7 @@
 
 ## 样例表说明
 
-> 样例表为一个想象的随身物品推销商使用的订单录入系统。
+> 样例表为一个想象的随身物品推销商使用的订单录入系统。详情可看本书的附录 `B.1`。
 
 涉及的六张表：`venders`，`products`，`customers`，`orders`，`orderitems`，`productnotes`。  
 
@@ -16,6 +16,63 @@
 创建6个数据库表的脚本：[create.sql](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/mysql_scripts/create.sql)  
 为这些表填充数据的脚本：[populate.sql](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/mysql_scripts/populate.sql)  
 
+## 创建样例表及填充数据
+
+#### 创建新数据源
+
+先创建一个新的数据源：
+
+```
+mysql> create database mysql_crash_course;
+```
+选择要操作的数据源：
+
+```
+mysql> use mysql_crash_course;
+```
+
+#### 使用脚本创建六张表
+
+如果 `mysql_scripts` 是放在了 `Downloads` 目录，则在 mysql 里执行：
+
+```
+mysql> source ~/Downloads/mysql_scripts/create.sql
+```
+
+查看所有表：
+
+```
+mysql> show tables;
+```
+
+就可以看到这六张表了：
+
+```
++------------------------------+
+| Tables_in_mysql_crash_course |
++------------------------------+
+| customers                    |
+| orderitems                   |
+| orders                       |
+| productnotes                 |
+| products                     |
+| vendors                      |
++------------------------------+
+6 rows in set (0.00 sec)
+```
+
+#### 使用脚本向六张表中填充数据
+
+```
+mysql> source ~/Downloads/mysql_scripts/populate.sql
+```
+
+查看 `customers` 表：
+
+```
+mysql> select *
+    -> from customers;
+```
 
 ## venders 表
 
