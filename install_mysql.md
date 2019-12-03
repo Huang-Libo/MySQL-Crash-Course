@@ -12,9 +12,17 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-（ 详情可看其官网：https://brew.sh ）
+（ 详情可看其官网：https://brew.sh ）  
+
+如果 brew 有问题，可执行 `brew doctor` 检测。  
 
 ## 安装 MySQL
+
+先更新 brew：  
+
+```
+brew update && brew upgrade
+```
 
 检索 mysql 相关信息：
 
@@ -184,4 +192,19 @@ vim ~/.myclirc
 
 Navicat
 
+
+## 安装 MySQL 可能遇到的问题及解决方案
+
+#### ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+
+原因：服务未启动。  
+
+#### 但执行 `mysql.server start` 也报错
+
+报错信息很长，大概原因是之前安装过其他版本的 mysql（之前的是 `v5.7`，这次要安装的是`v8.0`）。折腾许久无果。如果没有数据源要备份，可重新安装 mysql：  
+
+
+1. `brew uninstall mysql`；
+2. 再将 `/usr/local/var/mysql` 目录删除（如果少了这一步，重装后可能还是会报错）；
+3. 最后通过 `brew install mysql` 重新安装。
 
