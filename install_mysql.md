@@ -125,14 +125,16 @@ mysql -uroot -p
 
 显示所有数据库：
 
-```
-mysql> show databases;
+```sql
+mysql> SHOW databases;
 ```
 
 退出 MySQL：
 
-```
-mysql> quit;
+```sql
+mysql> quit; 
+-- 或 \q
+-- 或 CTRL+D
 ```
 
 ## mysql 服务的启动
