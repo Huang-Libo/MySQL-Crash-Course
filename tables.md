@@ -23,12 +23,12 @@
 先创建一个新的数据源：
 
 ```
-mysql> create database crash_course;
+mysql> CREATE DATABASE crash_course;
 ```
 选择要操作的数据源：
 
 ```
-mysql> use crash_course;
+mysql> USE crash_course;
 ```
 
 #### 使用脚本创建六张表
@@ -42,7 +42,7 @@ mysql> source ~/Downloads/mysql_scripts/create.sql
 查看所有表：
 
 ```
-mysql> show tables;
+mysql> SHOW tables;
 ```
 
 就可以看到这六张表了：
@@ -70,8 +70,8 @@ mysql> source ~/Downloads/mysql_scripts/populate.sql
 查看 `customers` 表：
 
 ```
-mysql> select *
-    -> from customers;
+mysql> SELECT *
+    -> FROM customers;
 ```
 
 ## venders 表
@@ -168,8 +168,8 @@ ALTER TABLE orders ADD CONSTRAINT fk_orders_customers FOREIGN KEY (cust_id) REFE
 
 ## orderitems 表
 
-主键：`order_num` 和 `order_item`。  
-外键有两个：  
+主键有两个：`order_num` 和 `order_item`。  
+外键也有两个：  
 1. `order_num`，关联到 **orders** 表中的 `order_num`；
 2. `prod_id`，关联到 **products** 表中的 `prod_id`。
 外键的定义为：  
