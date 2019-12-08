@@ -190,7 +190,13 @@ vim ~/.myclirc
 
 ## 图形界面推荐
 
-Navicat
+#### 第三方：
+
+Navicat（业界用的较多）  
+
+#### 官方
+
+workbench：https://dev.mysql.com/downloads/workbench/  
 
 
 ## 安装 MySQL 可能遇到的问题及解决方案
