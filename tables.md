@@ -23,12 +23,12 @@
 先创建一个新的数据源：
 
 ```
-mysql> create database mysql_crash_course;
+mysql> create database crash_course;
 ```
 选择要操作的数据源：
 
 ```
-mysql> use mysql_crash_course;
+mysql> use crash_course;
 ```
 
 #### 使用脚本创建六张表
@@ -49,7 +49,7 @@ mysql> show tables;
 
 ```
 +------------------------------+
-| Tables_in_mysql_crash_course |
+| Tables_in_crash_course |
 +------------------------------+
 | customers                    |
 | orderitems                   |
