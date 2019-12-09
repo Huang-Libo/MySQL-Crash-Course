@@ -38,13 +38,13 @@ mycli -h localhost -u root
 
 显示有哪些数据库：  
 
-```
+```sql
 SHOW databases;
 ```
 
 选择要使用的数据库：  
 
-```
+```sql
 USE crash_course;
 ```
 
@@ -87,7 +87,7 @@ SHOW WARNINGS;
 
 显示创建数据库时用的语句：  
 
-```
+```sql
 SHOW CREATE DATABASE crash_course;
 ```
 
@@ -101,7 +101,7 @@ SHOW CREATE DATABASE crash_course;
 
 显示创建表时用的语句：  
 
-```
+```sql
 SHOW CREATE TABLE customers;
 ```
 
@@ -126,7 +126,7 @@ SHOW CREATE TABLE customers;
 
 显示用户的权限：  
 
-```
+```sql
 SHOW GRANTS;
 ```
 
