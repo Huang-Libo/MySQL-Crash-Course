@@ -6,7 +6,7 @@
 
 - [MySQL 的安装和配置](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/install_mysql.md)
 - [样例表的说明及创建](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/tables.md)
-- [chap 1~3. 基本概念等](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/basic.md)
+- [chap 1~3. 基本概念等](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/chap_1_2_3_basic.md)
 - [chap 15~16. 联结表](https://github.com/Huang-Libo/MySQL_Crash_Course/blob/master/chap_15_16_join_tables.md)
 
 ## 书籍相关资源
